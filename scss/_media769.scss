@@ -1,10 +1,10 @@
 @media screen and (min-width: 769px) {
     :root {
-        --image-bg: url('/assets/images/bg-desktop-light.jpg');
+        --image-bg: url('../assets/images/bg-desktop-light.jpg');
     }
 
     .darkmode {
-        --image-bg: url('/assets/images/bg-desktop-dark.jpg');
+        --image-bg: url('../assets/images/bg-desktop-dark.jpg');
     }
 
     .background-container {

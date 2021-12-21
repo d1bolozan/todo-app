@@ -14,7 +14,7 @@ $clr-icon: hsl(0, 0%, 98%);
 $clr-remove: hsl(235, 19%, 35%);
 
 :root {
-    --image-bg: url('/assets/images/bg-mobile-light.jpg');
+    --image-bg: url('../assets/images/bg-mobile-light.jpg');
     --clr-background: hsl(0, 0%, 98%);
     --clr-items-bg: hsl(0, 0%, 100%);
     --clr-borders: hsl(235, 32%, 92%);
@@ -29,7 +29,7 @@ $clr-remove: hsl(235, 19%, 35%);
 }
 
 .darkmode {
-    --image-bg: url('/assets/images/bg-mobile-dark.jpg');
+    --image-bg: url('../assets/images/bg-mobile-dark.jpg');
     --clr-background: hsl(235, 21%, 11%);
     --clr-items-bg: hsl(235, 24%, 19%);
     --clr-borders: hsl(237, 14%, 26%);
