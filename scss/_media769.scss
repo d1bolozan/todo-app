@@ -1,4 +1,7 @@
 @media screen and (min-width: 769px) {
+    html,body{
+        font-size: 15px;
+    }
     :root {
         --image-bg: url('../assets/images/bg-desktop-light.jpg');
     }
@@ -13,7 +16,11 @@
 
 
     .container {
-        max-width: 540px;
+        max-width: 36rem;
+    }
+
+    .header__title{
+        font-size: 40px;
     }
 
     footer.filter {
