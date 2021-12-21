@@ -1,0 +1,70 @@
+//Variables
+$fontFamily: 'Josefin Sans',sans-serif;
+$clr-filter-btn-active: hsl(220, 98%, 61%);
+$gradient: linear-gradient(145deg, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+$clr-title: hsl(0, 0%, 98%);
+$clr-icon: hsl(0, 0%, 98%);
+$clr-remove: hsl(235, 19%, 35%);
+
+:root {
+    --clr-background: hsl(0, 0%, 98%);
+    --clr-items-bg: hsl(0, 0%, 100%);
+    --clr-borders: hsl(235, 32%, 92%);
+    --clr-text: hsl(235, 19%, 35%);
+    --clr-text-through: hsl(233, 11%, 84%);
+    --clr-input-text: hsl(236, 9%, 61%);
+    --clr-input-focus: hsl(237, 14%, 26%);
+    --clr-filter-btn: hsl(236, 9%, 61%);
+    --clr-filter-btn-hover: hsl(235, 19%, 35%);
+    --clr-details-text: hsl(236, 9%, 61%);
+    --clr-details-hover: hsl(235, 19%, 35%);
+}
+
+.darkmode {
+    --clr-background: hsl(235, 21%, 11%);
+    --clr-items-bg: hsl(235, 21%, 11%);
+    --clr-borders: hsl(237, 14%, 26%);
+    --clr-text: hsl(234, 39%, 85%);
+    --clr-text-through: hsl(233, 14%, 35%);
+    --clr-input-text: hsl(233, 11%, 52%);
+    --clr-input-focus: hsl(234, 39%, 85%);
+    --clr-filter-btn: hsl(233, 14%, 35%);
+    --clr--filter-btn-hover: hsl(236, 33%, 92%);
+    --clr-details-text: hsl(233, 14%, 35%);
+    --clr-details-hover: hsl(236, 33%, 92%);
+}
+
+/* 
+        Desktop
+Container max width 540px
+Padding header bottom 48px
+Inner container of items 490px 
+Padding input & list of todo items 24px
+Padding between checkmark & text 24px
+Last item padding 16px 24px
+Inner padding of containers 20px 24px
+Title 40px || Icon 26px
+Input text 18px
+Circle check 24px/24px
+Text 18px
+Details || filter btn  === 14px
+*/
+/* 
+        Mobile
+Container max width 330px
+Padding header bottom 40px
+Inner container of items 290px
+Padding input & list of todo items 16px
+Padding between checkmark & text 12px
+Last item padding 16px 20px 22px 20px
+Inner padding of containers 16px 20px
+************************************************************
+Filter separate with padding 15px centered
+************************************************************
+Title & icon theme 20px
+Input text 12px
+Circle check 20px/20px
+Text 12px
+Details text 12px
+Filter btn  === 14px
+*/

@@ -3,13 +3,150 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png" />
-
     <title>Frontend Mentor | Todo app</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    
+  <body class="darkmode">
+    <div class="background-container"></div>
+    <div class="container">
+      <header class="header">
+        <h1 class="header__title">TODO</h1>
+        <div class="header__theme-btn">
+          <button class="header__theme-btn--icon icon-sun" id="themeBtn"></button>
+        </div>
+      </header>
+      <form class="form">
+        <button class="form__btn" type="submit"></button>
+        <input class="form__input" type="text" id="newTodo" placeholder="Create a new todo..." />
+      </form>
+      <main class="main">
+        <ul class="list">
+          <li class="list__item">
+            <label class="list__label">
+              <input type="checkbox" id="checkmark" class="list__checkbox" />
+              <span class="list__checkbox--fake"><span class="list__checkbox-icon icon-check"></span></span>
+              <span class="list__text">Complete online JavaScript course</span>
+              <button class="list__remove icon-cross"></button>
+            </label>
+          </li>
+          <li class="list__item">
+            <label class="list__label">
+              <input type="checkbox" id="checkmark" class="list__checkbox" />
+              <span class="list__checkbox--fake"><span class="list__checkbox-icon icon-check"></span></span>
+              <span class="list__text">Jog around the park 3x</span>
+              <button class="list__remove icon-cross"></button>
+            </label>
+          </li>
+          <li class="list__item">
+            <label class="list__label">
+              <input type="checkbox" id="checkmark" class="list__checkbox" />
+              <span class="list__checkbox--fake"><span class="list__checkbox-icon icon-check"></span></span>
+              <span class="list__text">Jog around the park 3x</span>
+              <button class="list__remove icon-cross"></button>
+            </label>
+          </li>
+          <li class="list__item">
+            <label class="list__label">
+              <input type="checkbox" id="checkmark" class="list__checkbox" />
+              <span class="list__checkbox--fake"><span class="list__checkbox-icon icon-check"></span></span>
+              <span class="list__text">Jog around the park 3x</span>
+              <button class="list__remove icon-cross"></button>
+            </label>
+          </li>
+          <li class="list__item">
+            <label class="list__label">
+              <input type="checkbox" id="checkmark" class="list__checkbox" />
+              <span class="list__checkbox--fake"><span class="list__checkbox-icon icon-check"></span></span>
+              <span class="list__text">Jog around the park 3x</span>
+              <button class="list__remove icon-cross"></button>
+            </label>
+          </li>
+          <li class="list__item">
+            <label class="list__label">
+              <input type="checkbox" id="checkmark" class="list__checkbox" />
+              <span class="list__checkbox--fake"><span class="list__checkbox-icon icon-check"></span></span>
+              <span class="list__text">Jog around the park 3x</span>
+              <button class="list__remove icon-cross"></button>
+            </label>
+          </li>
+          <li class="list__item">
+            <label class="list__label">
+              <input type="checkbox" id="checkmark" class="list__checkbox" />
+              <span class="list__checkbox--fake"><span class="list__checkbox-icon icon-check"></span></span>
+              <span class="list__text">Jog around the park 3x</span>
+              <button class="list__remove icon-cross"></button>
+            </label>
+          </li>
+          <li class="list__item">
+            <label class="list__label">
+              <input type="checkbox" id="checkmark" class="list__checkbox" />
+              <span class="list__checkbox--fake"><span class="list__checkbox-icon icon-check"></span></span>
+              <span class="list__text">Jog around the park 3x</span>
+              <button class="list__remove icon-cross"></button>
+            </label>
+          </li>
+          <li class="list__item">
+            <label class="list__label">
+              <input type="checkbox" id="checkmark" class="list__checkbox" />
+              <span class="list__checkbox--fake"><span class="list__checkbox-icon icon-check"></span></span>
+              <span class="list__text">Jog around the park 3x</span>
+              <button class="list__remove icon-cross"></button>
+            </label>
+          </li>
+          <li class="list__item">
+            <label class="list__label">
+              <input type="checkbox" id="checkmark" class="list__checkbox" />
+              <span class="list__checkbox--fake"><span class="list__checkbox-icon icon-check"></span></span>
+              <span class="list__text">Jog around the park 3x</span>
+              <button class="list__remove icon-cross"></button>
+            </label>
+          </li>
+          <li class="list__item">
+            <label class="list__label">
+              <input type="checkbox" id="checkmark" class="list__checkbox" />
+              <span class="list__checkbox--fake"><span class="list__checkbox-icon icon-check"></span></span>
+              <span class="list__text">Jog around the park 3x</span>
+              <button class="list__remove icon-cross"></button>
+            </label>
+          </li>
+          <div class="details">
+            <span class="details__items-left"><span id="amount">2</span> items left</span>
+            <div class="desktop-filter">
+              <div class="filter">
+                <label class="filter__item">
+                  <input class="filter__radio" type="radio" name="filter" id="filter-all" checked />
+                  <span class="filter__link">All</span>
+                </label>
+                <label class="filter__item">
+                  <input class="filter__radio" type="radio" name="filter" id="filter-active" />
+                  <span class="filter__link">Active</span>
+                </label>
+                <label class="filter__item">
+                  <input class="filter__radio" type="radio" name="filter" id="filter-all" />
+                  <span class="filter__link">Completed</span>
+                </label>
+              </div>
+            </div>
+            <button class="details__clear-btn">Clear Completed</button>
+          </div>
+        </ul>
+      </main>
+      <footer class="filter">
+        <label class="filter__item">
+          <input class="filter__radio" type="radio" name="filter" id="filter-all" checked />
+          <span class="filter__link">All</span>
+        </label>
+        <label class="filter__item">
+          <input class="filter__radio" type="radio" name="filter" id="filter-active" />
+          <span class="filter__link">Active</span>
+        </label>
+        <label class="filter__item">
+          <input class="filter__radio" type="radio" name="filter" id="filter-all" />
+          <span class="filter__link">Completed</span>
+        </label>
+      </footer>
+    </div>
+    <script src="app.js"></script>
   </body>
 </html>

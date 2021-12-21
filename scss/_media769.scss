@@ -1,0 +1,38 @@
+@media screen and (min-width: 769px) {
+    :root {
+        --image-bg: url('/assets/images/bg-desktop-light.jpg');
+    }
+
+    .darkmode {
+        --image-bg: url('/assets/images/bg-desktop-dark.jpg');
+    }
+
+    .background-container {
+        min-height: 300px;
+    }
+
+
+    .container {
+        max-width: 540px;
+    }
+
+    footer.filter {
+        display: none;
+    }
+
+    .details .desktop-filter {
+        display: block;
+    }
+
+    .desktop-filter {
+        & .filter {
+            background-color: transparent;
+            box-shadow: none;
+            margin: 0;
+
+            &__item {
+                padding: 0;
+            }
+        }
+    }
+}
