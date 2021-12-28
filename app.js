@@ -68,7 +68,7 @@ const updateStatusOfItem = (id) => {
     }
   });
   addItemInLocalStorage(todoItems);
-}
+};
 
 const deleteItem = (id) => {
   todoItems = todoItems.filter((item) => item.id != id);
@@ -103,7 +103,6 @@ const showItemsByCondition = (options) => {
       break;
   }
 };
-
 
 filter.addEventListener("click", (event) => {
   if (event.target.id !== "") {
