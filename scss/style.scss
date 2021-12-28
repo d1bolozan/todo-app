@@ -109,16 +109,14 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        &:hover{
-            background: $gradient padding-box, $gradient border-box;
-        }
-        & .icon-plus{
+
+        & .icon-plus {
             font-size: 1rem;
         }
     }
 
     &__input {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         color: var(--clr-input-text);
 
         outline: none;
@@ -127,10 +125,8 @@ body {
 
         flex: 1 0 auto;
         padding: 1.8rem 0;
-
         &:focus {
             color: var(--clr-input-focus);
-            font-size: 16px;
         }
     }
 }
