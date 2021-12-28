@@ -25,4 +25,14 @@
     .header__title {
         font-size: 40px;
     }
+    .form__input:focus{
+        font-size: 1.2rem;
+    }
+    .list__remove{
+        opacity: 0;
+    }
+    .list__item:hover .list__remove {
+        cursor: pointer;
+        opacity: 1;
+    }
 }
