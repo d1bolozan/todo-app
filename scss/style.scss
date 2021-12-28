@@ -22,6 +22,7 @@ $clr-remove: hsl(235, 19%, 35%);
     --clr-text-through: hsl(233, 11%, 84%);
     --clr-input-text: hsl(236, 9%, 61%);
     --clr-input-focus: hsl(237, 14%, 26%);
+    --clr-input-btn: hsl(235, 19%, 35%);
     --clr-filter-btn: hsl(236, 9%, 61%);
     --clr-filter-btn-hover: hsl(235, 19%, 35%);
     --clr-details-text: hsl(236, 9%, 61%);
@@ -37,6 +38,8 @@ $clr-remove: hsl(235, 19%, 35%);
     --clr-text-through: hsl(233, 14%, 35%);
     --clr-input-text: hsl(233, 11%, 52%);
     --clr-input-focus: hsl(234, 39%, 85%);
+    --clr-input-btn: hsl(0, 0%, 98%);
+
     --clr-filter-btn: hsl(233, 14%, 35%);
     --clr--filter-btn-hover: hsl(236, 33%, 92%);
     --clr-details-text: hsl(233, 14%, 35%);
@@ -112,6 +115,7 @@ body {
 
         & .icon-plus {
             font-size: 1rem;
+            color: var(--clr-input-btn);
         }
     }
 
@@ -191,7 +195,7 @@ body {
         width: 2rem;
         height: 2rem;
         border: 1px solid transparent;
-        background: linear-gradient(var(--clr-items-bg), var(--clr-items-bg)) padding-box, hsl(233, 14%, 35%) border-box;
+        background: linear-gradient(var(--clr-items-bg), var(--clr-items-bg)) padding-box, var(--clr-borders) border-box;
         border-radius: 50%;
         cursor: pointer;
 
