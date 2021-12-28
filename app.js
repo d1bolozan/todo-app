@@ -95,7 +95,6 @@ const showItemsByCondition = (options) => {
       break;
     case "active":
       temp = todoItems.filter((item) => item.status === false);
-      console.log(temp);
       showTodoItems(temp);
       break;
     default:
